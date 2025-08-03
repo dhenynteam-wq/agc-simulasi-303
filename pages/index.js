@@ -1,4 +1,3 @@
-cat > pages/index.js <<EOF
 export default function Home() {
   return (
     <div style={{ padding: '2rem' }}>
@@ -13,4 +12,3 @@ export default function Home() {
     </div>
   );
 }
-EOF
