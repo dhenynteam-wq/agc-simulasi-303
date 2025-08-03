@@ -1,3 +1,8 @@
 export default function Page() {
-  return <h1>Simulasi Masuk Bot AGC</h1>
+  return (
+    <div style={{ padding: '2rem' }}>
+      <h1>✅ AGC Simulasi 303</h1>
+      <p>Halaman Simulasi Masuk Bot</p>
+    </div>
+  );
 }
