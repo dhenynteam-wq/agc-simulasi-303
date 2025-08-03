@@ -1,3 +1,8 @@
 export default function Page() {
-  return <h1>Halaman Deposit Withdraw Crypto</h1>
+  return (
+    <div style={{ padding: '2rem' }}>
+      <h1>✅ AGC Simulasi 303</h1>
+      <p>Halaman Deposit / Withdraw Crypto</p>
+    </div>
+  );
 }
