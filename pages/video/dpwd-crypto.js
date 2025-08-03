@@ -1,8 +1,9 @@
-export default function Page() {
+import AGCLayout from '../../components/agc_layout';
+
+export default function DPWD() {
   return (
-    <div style={{ padding: '2rem' }}>
-      <h1>✅ AGC Simulasi 303</h1>
-      <p>Halaman Deposit / Withdraw Crypto</p>
-    </div>
+    <AGCLayout>
+      <h2>Halaman Deposit / Withdraw Crypto</h2>
+    </AGCLayout>
   );
 }
