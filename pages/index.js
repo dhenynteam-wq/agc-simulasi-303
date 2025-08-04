@@ -1,7 +1,8 @@
+import AGCLayout from '../components/agc_layout';
+
 export default function Home() {
   return (
-    <div style={{ padding: '2rem' }}>
-      <h1>✅ AGC Simulasi 303</h1>
+    <AGCLayout>
       <p>Contoh halaman utama berhasil jalan di Vercel.</p>
       <ul>
         <li><a href="/video/jaringan-qq">Jaringan QQ</a></li>
@@ -9,6 +10,7 @@ export default function Home() {
         <li><a href="/video/simulasi-masuk">Simulasi Masuk Bot</a></li>
         <li><a href="/video/api-scraper">API Scraper</a></li>
       </ul>
-    </div>
+    </AGCLayout>
   );
 }
+
